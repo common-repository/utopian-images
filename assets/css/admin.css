@@ -1,0 +1,69 @@
+
+
+
+
+#thumbnail-priorities li {
+    cursor: pointer;
+}
+
+#utopian_images_template_settings {
+    padding-right: 70px;
+}
+
+#utopian_images_template_settings form {
+    position: relative;
+    width: 45%;
+    float: left;
+    padding-left: 4%;
+}
+
+#utopian_images_template_settings form th,
+#utopian_images_template_settings form td {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0px;
+}
+
+#utopian_images_template_settings form th {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    margin: 1em 0;
+}
+
+#utopian_images_template_settings form tr {
+    margin-bottom: 40px !important;
+    display: block;
+}
+
+.menu-item-handle {
+    width: 100% !important;
+}
+
+#thumbnail-priorities {
+    width: 100%;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+#uwp_settings {
+    padding-right: 40px;
+    float: right;
+    width: 30%;
+}
+
+#uwp_settings .card {
+    width: 100%;
+    min-width: 1px;
+}
+
+@media screen and (max-width: 782px) {
+    #uwp_settings,
+    #utopian_images_template_settings form {
+        width: 100% !important;
+        padding-left: 10px;
+        float: none;
+    }
+}
+
